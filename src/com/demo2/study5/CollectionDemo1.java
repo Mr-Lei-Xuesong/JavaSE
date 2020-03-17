@@ -5,7 +5,7 @@ import java.util.Collection;
 
 public class CollectionDemo1 {
     public static void main(String[] args) {
-        Collection<String> c = new ArrayList<String>();
+        Collection<String> c = new ArrayList<>();
         //添加
         c.add("hello");
         c.add("world");

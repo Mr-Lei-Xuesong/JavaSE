@@ -1,12 +1,13 @@
 package com.demo2.study10;
 
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class HashMap {
+public class HashMapDemo1 {
     public static void main(String[] args) {
-        Map<String, String> map = new java.util.HashMap<>();
+        Map<String,String> map = new HashMap<>();
         map.put("ceshi001", "雷雪松");
         map.put("ceshi002", "曾玉梅");
         map.put("ceshi003", "雷小松");

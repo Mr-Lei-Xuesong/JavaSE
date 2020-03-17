@@ -45,7 +45,6 @@ public class ListIteratorDemo {
 
         System.out.println("--------");
         //如果元素中有world就添加一个元素javaee
-        Iterator<String> iterator = list.iterator();
         for (int i = 0; i < list.size(); i++) {
             String s = list.get(i);
             if (s.equals("world")) {

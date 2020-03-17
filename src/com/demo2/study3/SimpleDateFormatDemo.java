@@ -17,6 +17,7 @@ public class SimpleDateFormatDemo {
         String s1 = sdf2.format(d);
         System.out.println(s1);
 
+        System.out.println("--------");
         //从String 到 Date
         String ss = "1998年09月05日 06时:58分:46秒";
         SimpleDateFormat sdf3 = new SimpleDateFormat("yyyy年MM月dd日 HH时:mm分:ss秒");

@@ -1,5 +1,7 @@
 package com.demo1.study2;
-
+/*
+判断最大/最小值
+ */
 public class DemoStudy05 {
     public static void main(String[] args) {
         /*maxArray();
