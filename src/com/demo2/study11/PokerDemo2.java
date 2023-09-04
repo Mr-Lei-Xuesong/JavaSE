@@ -54,7 +54,7 @@ public class PokerDemo2 {
             }
         }
         lookPoker("雷雪松", lei, hm);
-        lookPoker("曾玉梅", xue, hm);
+        lookPoker("雷小松", xue, hm);
         lookPoker("雷浩", song, hm);
         lookPoker("底牌", dipai, hm);
     }

@@ -4,29 +4,29 @@ import java.io.File;
 
 public class FileDemo3 {
     public static void main(String[] args) {
-        File f = new File("E:/StudyTest");
+        File f = new File("D:\\Temp\\School");
         //测试此抽象路径名表示的File是否为目录
-        System.out.println(f.isDirectory());
+        System.out.println("isDirectory：" + f.isDirectory());
 
         System.out.println("--------");
         //测试此抽象路径名表示的File是否为文件
-        System.out.println(f.isFile());
+        System.out.println("isFile：" + f.isFile());
 
         System.out.println("--------");
         //测试此抽象路径名表示的File是否存在
-        System.out.println(f.exists());
+        System.out.println("exists：" + f.exists());
 
         System.out.println("--------");
         //返回此抽象路径名的绝对路径名字符串
-        System.out.println(f.getAbsoluteFile());
+        System.out.println("getAbsoluteFile：" + f.getAbsoluteFile());
 
         System.out.println("--------");
         //将此抽象路径名转换为路径名字符串
-        System.out.println(f.getPath());
+        System.out.println("getPath：" + f.getPath());
 
         System.out.println("--------");
         //返回由此抽象路径名表示的文件或目录名称
-        System.out.println(f.getName());
+        System.out.println("getName：" + f.getName());
 
         System.out.println("--------");
         //返回此抽象路径名表示的目录中的文件和目录的名称字符串数组

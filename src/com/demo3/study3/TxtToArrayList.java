@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class TxtToArrayList {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("E:/Demo/test1.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("E:/StudyTest/test1.txt"));
 
         ArrayList<String> array = new ArrayList<>();
 

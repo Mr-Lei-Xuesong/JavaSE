@@ -44,7 +44,7 @@ public class TreeSetToFile {
             ts.add(s);
 
         }
-        //闯将字符缓冲输出流
+        //创建字符缓冲输出流
         BufferedWriter bw = new BufferedWriter(new FileWriter("E:/StudyTest/ArrayStudent.txt"));
 
         //遍历集合

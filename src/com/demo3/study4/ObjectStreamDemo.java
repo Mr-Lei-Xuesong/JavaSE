@@ -3,7 +3,9 @@ package com.demo3.study4;
 import java.io.*;
 
 public class ObjectStreamDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
+        write();
+        reader();
 
     }
 

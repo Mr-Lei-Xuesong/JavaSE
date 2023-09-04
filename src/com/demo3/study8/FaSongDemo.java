@@ -22,7 +22,7 @@ public class FaSongDemo {
             }
             //创建数据，并打包数据
             byte[] bys = line.getBytes();
-            DatagramPacket dp = new DatagramPacket(bys, bys.length, InetAddress.getByName("192.168.56.1"), 10086);
+            DatagramPacket dp = new DatagramPacket(bys, bys.length, InetAddress.getByName("192.168.0.105"), 10086);
             //调用DatagramSocket对象方法发送数据
             ds.send(dp);
         }

@@ -7,7 +7,7 @@ import java.net.DatagramSocket;
 public class ReceiveDemo {
     public static void main(String[] args) throws IOException {
         //创建接收端的Socket对象(DatagramSocket)
-        DatagramSocket ds = new DatagramSocket(10086);
+        DatagramSocket ds = new DatagramSocket(10068);
 
         //创建一个数据包，用于接受数据
         byte[] bys = new byte[1024];

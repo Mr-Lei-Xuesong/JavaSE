@@ -46,8 +46,8 @@ public class PoKerDemo1 {
             }
         }
         lookPoker("雷雪松", lei);
-        lookPoker("曾玉梅", xue);
-        lookPoker("雷洪娅", song);
+        lookPoker("龚伟杰", xue);
+        lookPoker("唐鑫", song);
         lookPoker("底牌", dipai);
     }
 

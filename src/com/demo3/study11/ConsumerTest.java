@@ -4,7 +4,7 @@ import java.util.function.Consumer;
 
 public class ConsumerTest {
     public static void main(String[] args) {
-        String[] strArray={"雷雪松,21","曾玉梅,20"};
+        String[] strArray={"雷雪松,21","雷小松,20"};
 
        /*printInfo(strArray,(String str)->{
             String name=str.split(",")[0];

@@ -34,7 +34,6 @@ public class Student implements Comparable<Student> {
 //        return 1;     升序
 //        return -1;    降序
         int i = this.age - o.age;
-        int i1 = i == 0 ? this.name.compareTo(o.name) : i;
-        return i1;
+        return i == 0 ? this.name.compareTo(o.name) : i;
     }
 }

@@ -18,7 +18,7 @@ public class ArrayListToFile {
         array.add(s3);
         array.add(s4);
 
-        BufferedWriter bw = new BufferedWriter(new FileWriter("E:/Demo/student.txt"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("E:/StudyTest/student.txt"));
 
         for (Student s : array) {
             StringBuilder sb = new StringBuilder();

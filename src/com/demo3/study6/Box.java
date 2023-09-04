@@ -18,7 +18,7 @@ public class Box {
         }
         //如果没有牛奶，就生产牛奶
         this.milk = milk;
-        System.out.println("松奶工将第" + this.milk + "瓶奶放入奶箱");
+        System.out.println("送奶工将第" + this.milk + "瓶奶放入奶箱");
 
         //生产完毕，修改奶箱状态
         state = true;

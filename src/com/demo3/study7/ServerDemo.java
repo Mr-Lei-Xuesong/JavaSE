@@ -19,7 +19,7 @@ public class ServerDemo {
         byte[] bys = new byte[1024];
         int len = is.read(bys);
         String data = new String(bys, 0, len);
-        System.out.println("服务器:" + data);
+        System.out.println("服务器：" + data);
 
         //给客户端反馈
         OutputStream os = accept.getOutputStream();

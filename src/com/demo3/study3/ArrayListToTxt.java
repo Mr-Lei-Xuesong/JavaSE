@@ -12,7 +12,7 @@ public class ArrayListToTxt {
         array.add("world");
         array.add("java");
 
-        BufferedWriter bf = new BufferedWriter(new FileWriter("E:/Demo/test1.txt"));
+        BufferedWriter bf = new BufferedWriter(new FileWriter("E:/StudyTest/test1.txt"));
 
         for (String s : array) {
             bf.write(s);

@@ -17,7 +17,7 @@ public class ComparatorDemo {
         /*Collections.sort(array);
         System.out.println("排序后:"+array);*/
 
-        Collections.sort(array,getComparator());
+        array.sort(getComparator());
         System.out.println("排序后:"+array);
 
     }

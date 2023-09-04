@@ -10,7 +10,8 @@ public class FlyableDemo {
             }
         });
         System.out.println("--------");
-        useFlyable((String s)->{
+
+        useFlyable((s)->{
             System.out.println(s);
             System.out.println("飞机自驾游");
         });

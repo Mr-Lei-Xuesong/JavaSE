@@ -2,7 +2,6 @@ package com.demo3.study5;
 
 public class SellTicket implements Runnable {
     private int tickets = 100;
-    private Object obj = new Object();
     private int x = 0;
 
     @Override

@@ -15,7 +15,7 @@ public class SendDemo {
         int port=10086;*/
 //        DatagramPacket dp=new DatagramPacket(bys,length,address,port);
 
-        DatagramPacket dp = new DatagramPacket(bys, bys.length, InetAddress.getByName("192.168.56.1"), 10086);
+        DatagramPacket dp = new DatagramPacket(bys, bys.length, InetAddress.getByName("127.0.0.1"), 10068);
         //发送数据
         ds.send(dp);
         //关闭发送端

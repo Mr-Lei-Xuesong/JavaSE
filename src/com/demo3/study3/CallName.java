@@ -8,7 +8,7 @@ import java.util.Random;
 
 public class CallName {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("E:/Demo/name.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("E:/StudyTest/name.txt"));
         ArrayList<String> array = new ArrayList<>();
         String line;
         while ((line = br.readLine()) != null) {

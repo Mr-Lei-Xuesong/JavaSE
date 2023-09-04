@@ -6,7 +6,7 @@ public class HashSetDemo {
     public static void main(String[] args) {
         HashSet<Student> hs = new HashSet<>();
         Student s1 = new Student("雷雪松", 18);
-        Student s2 = new Student("曾玉梅", 17);
+        Student s2 = new Student("测试", 17);
         Student s3 = new Student("雷雪松", 18);
 
         hs.add(s1);

@@ -10,9 +10,9 @@ public class SellTicketDemo {
         Thread t2 = new Thread(st, "窗口2");
         Thread t3 = new Thread(st, "窗口3");
 
-        t1.setPriority(1);
+        /*t1.setPriority(1);
         t2.setPriority(5);
-        t3.setPriority(10);
+        t3.setPriority(10);*/
 
         t1.start();
         t2.start();
